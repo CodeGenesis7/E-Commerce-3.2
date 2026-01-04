@@ -38,8 +38,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
-
 ul {
   display: flex;
 }
@@ -178,11 +176,7 @@ button:active {
 }
 
 
-/* 
-
-LANDING
-
-*/
+/* LANDING */
 
 #landing {
   background-color: rgba(115, 66, 214, 0.1)
@@ -210,9 +204,7 @@ header {
 
 .header__img--wrapper {
   padding: 20px;
-
-  /* Added this after the tutorial to 
-  show it over the wave on larger screens */
+  /* Added this after the tutorial to show it over the wave on larger screens */
   z-index: 50;
 }
 
@@ -235,11 +227,8 @@ header {
 .no-cursor {
   cursor: not-allowed;
 }
-/* 
 
-HIGHLIGHTS 
-
-*/
+/* HIGHLIGHTS */
 
 #highlights {
   position: relative;
@@ -306,11 +295,7 @@ HIGHLIGHTS
   text-align: center;
 }
 
-/* 
-
-FEATURES 
-
-*/
+/* FEATURES */
 
 #features {
   padding-top: 8vw;
@@ -365,21 +350,13 @@ FEATURES
   color: #bfbfbf;
 }
 
-/* 
-
-EXPLORE
-
-*/
+/* EXPLORE */
 
 #explore {
   background-color: rgba(115, 66, 214, 0.1);
 }
 
-/* 
-
-FOOTER
-
-*/
+/* FOOTER */
 
 footer {
   background-color: #242424;
@@ -408,6 +385,7 @@ footer {
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
 @media (max-width: 768px) {
   .header__description {
     padding: 0 24px;
@@ -430,8 +408,8 @@ footer {
   }
 }
 
-
 /* SMALL PHONES, LARGE SMARTPHONES */
+
 @media (max-width: 550px) {
   .btn__menu {
     display: block;
